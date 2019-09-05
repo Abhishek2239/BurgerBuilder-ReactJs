@@ -1,0 +1,11 @@
+.Content {
+    margin-top: 72px;
+}
+
+.Content h4{
+    padding: 5px;
+    width:100px;
+    margin: auto;
+    background: whitesmoke;
+    border: 1px solid lavender;
+}

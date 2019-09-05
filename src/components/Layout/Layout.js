@@ -1,0 +1,21 @@
+import React from 'react';
+import Aux from '../../hoc/Aux';
+import LayoutStyles from './Layout.module.css'
+import Toolbar from '../Navigation/Toolbar/Toolbar'
+
+const layout = (props) => (
+    <Aux>
+        {/* <div >
+            Toolbar,
+            SideDrawer,
+            Backdrop
+        </div> */}
+        <Toolbar/>
+        <main className={LayoutStyles.Content}>
+            {props.children}
+        </main>
+        
+    </Aux>
+)
+
+export default layout
